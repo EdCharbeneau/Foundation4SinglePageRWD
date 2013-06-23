@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #siteHeader {
-    padding-top: 20px;
+    //padding-top: 20px;
     background: #fff;
     border-top: 3px solid #1f1f1f;
 }
@@ -70,3 +70,19 @@ a {
     a:hover {
         color: #E6340E;
     }
+
+/* -----------------------------------------
+::Override top-bar style
+   Using CSS overrides we can customize the nav bar
+----------------------------------------- */
+.top-bar-section ul li.active > a {
+    color: #FD651C;
+}
+
+    .top-bar-section ul li.active > a:hover {
+        color: #E6340E;
+    }
+
+.top-bar-section ul li > a {
+    background: none;
+}
